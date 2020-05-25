@@ -203,7 +203,7 @@ h6 {
   .seprator span {
     display: block; }
     .seprator span.seprator-sm {
-      background: #ffdf2b none repeat scroll 0 0;
+      background: #f346bef2 none repeat scroll 0 0;
       display: block;
       height: 5px;
       width: 54px; }
@@ -223,7 +223,7 @@ h6 {
   margin-top: 0; }
 
 .seprator-md-vertical {
-  border-left: 5px solid #ffdf2b;
+  border-left: 5px solid #f346bef2;
   padding-left: 27px; }
 
 .table-wrap {
@@ -235,13 +235,13 @@ h6 {
     vertical-align: middle; }
 
 .sec-head {
-  background: #ffdd00 none repeat scroll 0 0;
+  background: #00d9ff none repeat scroll 0 0;
   overflow: hidden;
   position: relative; }
   .sec-head h4 {
     color: #2e2e2e; }
   .sec-head .slanted-head {
-    background: #ffea00;
+    background: #337ab7
     height: 2000px;
     left: 0;
     position: absolute;
@@ -320,13 +320,14 @@ h6 {
 
 /* Button 3 */
 .btn-3 {
-  background: #ffea01;
-  color: #272727;
+  background: #272727;
+  color: #fff;
   margin-top: 50px; }
   .btn-3:hover {
-    background: #ffea01; }
+    background: #f346bef2;
+    color: #fff; }
   .btn-3:active {
-    background: #ffea01; }
+    background: #272727; }
   .btn-3:before {
     position: absolute;
     height: 100%;
@@ -346,7 +347,7 @@ h6 {
   .btn-3e:after {
     width: 46%;
     height: 200%;
-    background: #ffdd00;
+    background: #00d9ff;
     z-index: 1;
     right: 0;
     top: 0;
@@ -490,6 +491,7 @@ h6 {
   .header .navbar-header {
     height: 75px; }
   .header .navbar-brand {
+    height: 40px;
     padding: 27.5px 27.5px 27.5px 0;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -709,101 +711,7 @@ p, .expertises-sec .service-info-text p {
   margin-bottom: 10px;
   min-height: 50px; }
 
-/****************************/
-/** EXPERTISE SEC **/
-/****************************/
-.progress-bar-graph {
-  text-align: left !important;
-  margin: 0px !important; }
-  .progress-bar-graph span {
-    height: 6px;
-    width: 0px;
-    display: block;
-    background-color: #ffdf2b;
-    overflow: visible !important;
-    position: relative;
-    -moz-transition: background-color 0.2s ease 0s;
-    -o-transition: background-color 0.2s ease 0s;
-    -webkit-transition: background-color 0.2s ease 0s;
-    transition: background-color 0.2s ease 0s; }
-    .progress-bar-graph span strong {
-      position: absolute;
-      right: -0px;
-      top: -25px;
-      padding: 4px 0px;
-      color: #272727;
-      line-height: 12px;
-      font-size: 11px;
-      opacity: 0;
-      display: block; }
-  .progress-bar-graph .progress-bar-wrap {
-    padding: 0 35px; }
-  .progress-bar-graph i {
-    margin: 0; }
-  .progress-bar-graph .bar-wrap {
-    border-bottom: 1px solid #9e9e9e;
-    padding-top: 7px; }
-  .progress-bar-graph p, .progress-bar-graph .expertises-sec .service-info-text p, .expertises-sec .service-info-text .progress-bar-graph p {
-    margin-bottom: 13px;
-    font-size: 14px;
-    font-weight: 600; }
 
-.progress-bar-graph span strong i {
-  font-style: normal;
-  font-size: 11px; }
-
-.progress-bar-graph span strong.full:after {
-  left: 15px; }
-
-.progress-bar-graph span strong.full {
-  width: 43px;
-  text-align: center; }
-
-.expertises-sec i {
-  font-size: 28px; }
-.expertises-sec strong {
-  font-size: 11px; }
-  .expertises-sec strong i {
-    font-size: 11px; }
-.expertises-sec .align-middle p {
-  color: #272727; }
-.expertises-sec .service-info-text p {
-  line-height: 25px;
-  font-size: 14px; }
-.expertises-sec .service-wrap {
-  position: relative; }
-  .expertises-sec .service-wrap .seprator {
-    left: 5px;
-    position: absolute;
-    top: 0;
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0; }
-    .expertises-sec .service-wrap .seprator span.seprator-sm {
-      width: 60px; }
-  .expertises-sec .service-wrap .expertise-block-wrap {
-    background: #fff none repeat scroll 0 0;
-    padding-bottom: 24px;
-    padding-top: 50px; }
-    .expertises-sec .service-wrap .expertise-block-wrap .service-content-wrap {
-      padding: 0 35px; }
-  .expertises-sec .service-wrap .serch-wrap-sep {
-    width: 100%;
-    height: 1px;
-    background: #eee;
-    margin-top: 38px;
-    margin-bottom: 28px; }
-
-/****************************/
-/** 	WORK SEC **/
-/****************************/
 .work-sec .btn i {
   color: #272727 !important; }
 
@@ -1167,7 +1075,7 @@ p, .expertises-sec .service-info-text p {
     list-style: none; }
     .p-table-item .p-table-list li i {
       padding-right: 10px;
-      color: #ffea01; }
+      color: #272727; }
     .p-table-item .p-table-list li.inactive {
       color: #949494; }
       .p-table-item .p-table-list li.inactive i {
@@ -1209,7 +1117,7 @@ p, .expertises-sec .service-info-text p {
   padding-bottom: 29px; }
   .service-sec .service-icon-top .process-icon i {
     font-size: 45px;
-    color: #ffdf2b; }
+    color: #f346bef2; }
 .service-sec .service-icon-top h3 {
   margin-bottom: 14px; }
 .service-sec .relative-div {
@@ -1232,7 +1140,7 @@ p, .expertises-sec .service-info-text p {
     vertical-align: middle;
     width: 40px;
     cursor: pointer;
-    background: #ffdf2b;
+    background: #f346bef2;
     -moz-transition: 0.3s all ease-in-out;
     -o-transition: 0.3s all ease-in-out;
     -webkit-transition: 0.3s all ease-in-out;
@@ -1282,14 +1190,14 @@ p, .expertises-sec .service-info-text p {
   transition: all 0.3s ease-in-out; }
 .testimonial-sec .owl-theme .owl-controls .owl-dot.active span {
   height: 5px;
-  background-color: #ffdd00; }
+  background-color: #00d9ff; }
 .testimonial-sec .owl-nav {
   display: none; }
 .testimonial-sec .test-name, .testimonial-sec .test-desn {
   font-size: 14px;
   font-family: "Hind", sans-serif;
   text-transform: capitalize;
-  color: #ffdf2b; }
+  color: #f346bef2; }
 .testimonial-sec .test-desn {
   color: #8c8c8c; }
 .testimonial-sec .owl-dots {
@@ -1410,7 +1318,7 @@ p, .expertises-sec .service-info-text p {
     padding-top: 18px !important;
     margin-bottom: 20px; }
   .contact-sec .form-control:focus {
-    border-color: #ffdd00; }
+    border-color: #00d9ff; }
   .contact-sec .form-control::-webkit-input-placeholder {
     color: #8c8c8c;
     font-size: 14px;
@@ -1808,7 +1716,7 @@ a.social-icon {
       padding-top: 18px !important;
       margin-bottom: 20px; }
     .blogdetail-page .comment-form-sec .form-control:focus {
-      border-color: #ffdd00; }
+      border-color: #00d9ff; }
     .blogdetail-page .comment-form-sec .form-control::-webkit-input-placeholder {
       color: #8c8c8c;
       font-size: 14px;
@@ -1832,14 +1740,14 @@ a.social-icon {
       font-weight: 600;
       text-transform: capitalize; }
   .blogdetail-page .comment-form-sec .btn-3 {
-    background: #ffea01;
+    background: #272727;
     color: #272727;
     margin-top: 50px; }
     .blogdetail-page .comment-form-sec .btn-3:hover:after {
       width: 40%; }
     .blogdetail-page .comment-form-sec .btn-3:after {
       width: 46%;
-      background: #ffdd00; }
+      background: #00d9ff; }
   .blogdetail-page .comment-form-sec h3 {
     margin-bottom: 10px; }
 
@@ -2527,13 +2435,13 @@ a.social-icon {
     padding-top: 140px; }
 
   .slide:nth-child(1) .slide__text {
-    background-color: rgba(155, 70, 243, 0.95); }
+    background-color: #f24ebf; }
 
   .slide:nth-child(2) .slide__text {
     background-color: rgba(255, 66, 0, 0.95); }
 
   .slide:nth-child(3) .slide__text {
-    background-color: rgba(155, 70, 243, 0.95); }
+    background-color: #f24ebf; }
 
   .project-page .slider .container .slide__text {
     padding-top: 100px; }

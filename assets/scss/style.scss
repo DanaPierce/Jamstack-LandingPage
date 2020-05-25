@@ -366,8 +366,8 @@ h6 {
 
 /* Button 3 */
 .btn-3 {
-	background: #ffea01;
-	color: #272727;
+	background: #2e2e2e;
+	color: #fff;
 	margin-top: 50px;
 	&:hover {
 		background: #ffea01;
@@ -581,7 +581,7 @@ h6 {
 			padding-right:20px;
 			li {
 				a{
-					color:#949494;
+					color:#272727;
 					font-size: 12px;
 					font-weight: 700;
 					text-transform: uppercase;
@@ -782,12 +782,12 @@ p {
 	font-size:14px;
 	font-family:$p_font;
 	line-height:25px;
-	color:#949494;
+	color:#2e2e2e;
 	
 	&.lead {
 		font-size:16px;
 		line-height:32px;
-		color:#272727;
+		color:#fff;
 		font-weight:600;
 		margin-bottom: 31px;
 	}
@@ -1310,7 +1310,7 @@ p {
 				color: #fff;
 			}
 			.p-table-per {
-				color:#949494;
+				color:#272727;
 			}
 		
 		} 
@@ -3094,13 +3094,13 @@ a.social-icon {
 		padding-top: 140px;
 	}
 	.slide:nth-child(1) .slide__text {
-		background-color: rgba(155, 70, 243, 0.95);
+		background-color: #f24ebf;
 	}
 	.slide:nth-child(2) .slide__text {
 		background-color: rgba(255, 66, 0, 0.95);
 	} 
 	 .slide:nth-child(3) .slide__text {
-		background-color: rgba(155, 70, 243, 0.95);
+		background-color: #f24ebf;
 	}
 	.project-page .slider .container .slide__text {
 		padding-top: 100px;
