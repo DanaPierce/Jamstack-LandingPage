@@ -2262,7 +2262,7 @@ a.social-icon {
     background-color: rgba(90, 180, 122, 0.95); }
 
   .project-page .slide:nth-child(1) .slide__text {
-    background-color: rgba(249, 190, 0, 0.95); }
+    background-color: #f24ebf; }
 
   .blog-page .slide__content .container .slide__text,
   .blogdetail-page .slide__content .container .slide__text {
