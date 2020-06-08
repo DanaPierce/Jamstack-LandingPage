@@ -754,7 +754,6 @@ nav.vertical-nav {
 	&.seperator-lg-vertical {
 		border-left: 5px solid #ffdf2c;
 		padding-left: 30px;
-
 	}
 	a {
 		u {
@@ -1143,7 +1142,7 @@ p {
 	}
 	i {
 		font-size:14px;
-		color:#272727;
+		color:#00d9ff;
 	}
 }
 .our-team {
@@ -1840,7 +1839,7 @@ a.social-icon {
 /****************************/
 .blog-page {
 	.slide .slide__overlay-path {
-		fill: ;
+		fill: rgb(242,78,191, 1);
 	}
 	.slide__content {
 		.container {
@@ -1858,7 +1857,7 @@ a.social-icon {
 	}
 	}	
 	.btn-3 {
-		background:#2e2e2e;
+		background:#00d9ff;
 		color:#fff;
 		margin:0;
 		display:inline-block;
@@ -2861,17 +2860,17 @@ a.social-icon {
 	}
 	.blog-page {
 		.slide:nth-child(1) .slide__text {
-			background-color: #f24ebf;
+			background-color: rgba(255,180,185, 0.95);
 		}
 	}
 	.blogdetail-page {
 		.slide:nth-child(1) .slide__text {
-			background-color: #f24ebf;
+			background-color: rgba(90,180,122, 0.95);
 		}
 	}
 	.project-page {
 		.slide:nth-child(1) .slide__text {
-			background-color: #f24ebf;
+			background-color: rgba(249,190,0, 0.95);
 		}
 	}
 	.blog-page .slide__content .container .slide__text ,
@@ -3098,7 +3097,7 @@ a.social-icon {
 		background-color: #f24ebf;
 	}
 	.slide:nth-child(2) .slide__text {
-		background-color: #f24ebf;
+		background-color: rgba(255, 66, 0, 0.95);
 	} 
 	 .slide:nth-child(3) .slide__text {
 		background-color: #f24ebf;
