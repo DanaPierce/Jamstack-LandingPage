@@ -221,7 +221,7 @@ svg {
 }
 @media (max-width: 991px) {
   .slide:nth-child(2) .slide__text {
-    background-color: rgba(255, 66, 0, 0.95);
+    background-color: #f24ebf;
   }
 }
 .slide:nth-child(3) {
@@ -251,7 +251,7 @@ svg {
 }
 @media (max-width: 991px) {
   .slide:nth-child(4) .slide__text {
-    background-color: rgba(255, 138, 75, 0.89);
+    background-color: #f24ebf;
   }
 }
 .slide__content {

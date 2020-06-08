@@ -754,7 +754,7 @@ nav.vertical-nav {
 	&.seperator-lg-vertical {
 		border-left: 5px solid #ffdf2c;
 		padding-left: 30px;
-		
+
 	}
 	a {
 		u {
@@ -1840,7 +1840,7 @@ a.social-icon {
 /****************************/
 .blog-page {
 	.slide .slide__overlay-path {
-		fill: rgb(242,78,191, 1);
+		fill: ;
 	}
 	.slide__content {
 		.container {
@@ -2861,17 +2861,17 @@ a.social-icon {
 	}
 	.blog-page {
 		.slide:nth-child(1) .slide__text {
-			background-color: rgba(255,180,185, 0.95);
+			background-color: #f24ebf;
 		}
 	}
 	.blogdetail-page {
 		.slide:nth-child(1) .slide__text {
-			background-color: rgba(90,180,122, 0.95);
+			background-color: #f24ebf;
 		}
 	}
 	.project-page {
 		.slide:nth-child(1) .slide__text {
-			background-color: rgba(249,190,0, 0.95);
+			background-color: #f24ebf;
 		}
 	}
 	.blog-page .slide__content .container .slide__text ,
@@ -3098,7 +3098,7 @@ a.social-icon {
 		background-color: #f24ebf;
 	}
 	.slide:nth-child(2) .slide__text {
-		background-color: rgba(255, 66, 0, 0.95);
+		background-color: #f24ebf;
 	} 
 	 .slide:nth-child(3) .slide__text {
 		background-color: #f24ebf;
